@@ -1,7 +1,7 @@
 // ALAIA - Carrito y WhatsApp
 // Cambia este número por el WhatsApp real del asesor.
 // Formato internacional, sin +, espacios ni guiones.
-const WHATSAPP_NUMBER = "573001234567";
+const WHATSAPP_NUMBER = "573008905955";
 
 const cartCount = document.getElementById("cartCount");
 const toast = document.getElementById("toast");
