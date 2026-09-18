@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ALAIA — Bolsos artesanales">
+  <title>ALAIA | Bolsos artesanales</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#">
+      <span class="brand-mark">✧</span>
+      <span><strong>ALAIA</strong><small>BOLSOS ARTESANALES</small></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a class="active" href="#inicio">Inicio</a>
+      <a href="#tienda">Tienda <span>⌄</span></a>
+      <a href="#bolsos">Bolsos <span>⌄</span></a>
+      <a href="#accesorios">Accesorios <span>⌄</span></a>
+      <a href="nosotras.html">Nosotras</a>
+      <a href="#paginas">Páginas <span>⌄</span></a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="header-icon search-trigger" aria-label="Buscar productos" id="searchBtn" title="Buscar productos">⌕</button>
+      <button class="header-icon account-trigger" aria-label="Abrir mi cuenta" id="accountBtn" title="Mi cuenta">◎</button>
+      <button class="cart-btn header-icon" id="cartBtn" aria-label="Abrir carrito" title="Abrir carrito">♧<b id="cartCount">0</b></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">COLECCIÓN ARTESANAL</p>
+        <h1>Bolsos que<br>cuentan tu historia</h1>
+        <div class="ornament"><i></i> ✿ <i></i></div>
+        <p class="hero-text">Diseños artesanales inspirados en la esencia<br class="desktop"> femenina y elaborados con amor y propósito.</p>
+        <a class="button" href="#tienda">Descubre la colección <span>→</span></a>
+
+        <div class="values">
+          <div><span>♡</span><p><b>Hechos a mano</b><br>con amor</p></div>
+          <div><span>♧</span><p><b>Materiales</b><br>sostenibles</p></div>
+          <div><span>✿</span><p><b>Diseños únicos</b><br>y exclusivos</p></div>
+        </div>
+      </div>
+      <div class="hero-image" role="img" aria-label="Mujer usando un bolso artesanal"></div>
+    </section>
+
+    <section class="products-section" id="tienda">
+      <div class="section-heading">
+        <h2>Nuevos Lanzamientos</h2>
+        <div class="ornament"><i></i> ✿ <i></i></div>
+      </div>
+
+      <div class="products">
+        <article class="product-card">
+          <div class="new-badge">Nuevo</div>
+          <img src="assets/product-orquidea.jpg" alt="Bolso Orquídea">
+          <div class="product-info">
+            <h3>Bolso Orquídea</h3>
+            <p>$101.200</p>
+            <div class="swatches"><i></i><i></i><i></i></div>
+            <button class="add-cart" data-product="Bolso Orquídea" data-price="101200">Agregar al carrito</button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="new-badge">Nuevo</div>
+          <img src="assets/product-clasico.jpg" alt="Bolso Orquídea Clásico">
+          <div class="product-info">
+            <h3>Bolso Orquídea Clásico</h3>
+            <p>$101.200</p>
+            <div class="swatches"><i></i><i></i><i></i></div>
+            <button class="add-cart" data-product="Bolso Orquídea Clásico" data-price="101200">Agregar al carrito</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="promos" id="bolsos">
+      <article class="promo" style="background-image:url('assets/promo-tote.jpg')">
+        <div><h3>Tote Bags<br><strong>30% OFF</strong></h3><a href="#tienda">Comprar ahora</a></div>
+      </article>
+      <article class="promo" style="background-image:url('assets/promo-nuevos.jpg')">
+        <div><h3>Nuevos<br>Lanzamientos</h3><a href="#tienda">Ver colección</a></div>
+      </article>
+      <article class="promo" style="background-image:url('assets/promo-crossbody.jpg')">
+        <div><h3>Crossbody Bags<br><strong>20% OFF</strong></h3><a href="#tienda">Comprar ahora</a></div>
+      </article>
+    </section>
+
+    <section class="benefits">
+      <div><span>▱</span><p>Envíos a todo<br>Colombia</p></div>
+      <div><span>♢</span><p>Compra segura<br>y protegida</p></div>
+      <div><span>↻</span><p>Cambios fáciles<br>y rápidos</p></div>
+      <div><span>♧</span><p>Atención personalizada<br>por WhatsApp</p></div>
+    </section>
+
+    <section class="about" id="nosotras">
+      <h2>Hechos para mujeres que inspiran.</h2>
+      <p>Conoce quiénes somos, lo que nos define y el propósito que impulsa a ALAIA.</p>
+      <a class="button" href="nosotras.html">Conócenos <span>→</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <div class="brand"><span class="brand-mark">✧</span><span><strong>ALAIA</strong><small>BOLSOS ARTESANALES</small></span></div>
+      <p>Creemos en bolsos artesanales con identidad, hechos con materiales sostenibles y diseñados para acompañarte siempre.</p>
+      <div class="social">◎　♪　f　◌</div>
+    </div>
+    <div><h4>COMPRA</h4><a href="#tienda">Tienda</a><a href="#bolsos">Bolsos</a><a href="#">Accesorios</a><a href="#">Colecciones</a><a href="#">Ofertas</a></div>
+    <div><h4>INFORMACIÓN</h4><a href="nosotras.html">Nosotras</a><a href="#">Envíos</a><a href="#">Cambios y Devoluciones</a><a href="#">Preguntas Frecuentes</a><a class="whatsapp-link" href="#" target="_blank" rel="noopener">Contacto por WhatsApp</a></div>
+    <div><h4>SUSCRÍBETE</h4><p>Recibe novedades, lanzamientos<br>y promociones exclusivas.</p><form id="subscribe"><input type="email" placeholder="Tu correo electrónico" required><button>Suscribirme</button></form></div>
+    <div class="copyright">© 2024 ALAIA. Todos los derechos reservados.<span>Diseñado con ♡ para mujeres que inspiran.</span></div>
+  </footer>
+
+  
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-label="Carrito de compras">
+  <div class="cart-header">
+    <h2>Tu carrito</h2>
+    <button id="closeCart" aria-label="Cerrar carrito">×</button>
+  </div>
+  <div id="cartItems" class="cart-items"></div>
+  <div class="cart-empty" id="cartEmpty">Tu carrito está vacío.</div>
+  <div class="cart-footer">
+    <div class="cart-total"><span>Total</span><strong id="cartTotal">$0</strong></div>
+    <a class="whatsapp-checkout" id="whatsappCheckout" href="#" target="_blank" rel="noopener">Comprar por WhatsApp</a>
+    <button class="clear-cart" id="clearCart">Vaciar carrito</button>
+  </div>
+</aside>
+<!-- BUSCADOR -->
+<div class="search-overlay" id="searchOverlay" aria-hidden="true">
+  <section class="search-panel" role="dialog" aria-modal="true" aria-labelledby="searchTitle">
+    <div class="search-panel-head">
+      <div>
+        <span class="search-kicker">EXPLORA ALAIA</span>
+        <h2 id="searchTitle">¿Qué estás buscando?</h2>
+      </div>
+      <button class="panel-close" id="closeSearch" type="button" aria-label="Cerrar búsqueda">×</button>
+    </div>
+    <div class="search-box">
+      <span class="search-box-icon" aria-hidden="true">⌕</span>
+      <input id="searchInput" type="search" autocomplete="off" placeholder="Busca un bolso, colección o categoría..." aria-label="Buscar productos">
+      <button class="clear-search" id="clearSearch" type="button" aria-label="Limpiar búsqueda">×</button>
+    </div>
+    <div class="search-meta">
+      <span id="searchStatus">Escribe para buscar entre nuestros productos</span>
+      <kbd>ESC</kbd>
+    </div>
+    <div class="search-suggestions" id="searchSuggestions">
+      <span>Buscar por:</span>
+      <button type="button" data-search-term="Orquídea">Orquídea</button>
+      <button type="button" data-search-term="Clásico">Clásico</button>
+      <button type="button" data-search-term="Bolso">Bolsos</button>
+      <button type="button" data-search-term="Nuevo">Nuevos</button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </section>
+</div>
+
+<!-- MI CUENTA -->
+<div class="account-overlay" id="accountOverlay" aria-hidden="true">
+  <aside class="account-drawer" role="dialog" aria-modal="true" aria-labelledby="accountTitle">
+    <div class="account-header">
+      <div>
+        <span class="account-kicker">ALAIA</span>
+        <h2 id="accountTitle">Mi cuenta</h2>
+      </div>
+      <button class="panel-close" id="closeAccount" type="button" aria-label="Cerrar cuenta">×</button>
+    </div>
+    <div class="account-content">
+      <div class="account-avatar" aria-hidden="true">A</div>
+      <p class="account-welcome" id="accountWelcome">Tu espacio en ALAIA</p>
+      <p class="account-description">Guarda tus datos para que tu próxima compra sea más rápida.</p>
+      <form class="account-form" id="accountForm">
+        <label>Nombre
+          <input id="accountName" type="text" autocomplete="name" placeholder="Tu nombre" required>
+        </label>
+        <label>Correo electrónico
+          <input id="accountEmail" type="email" autocomplete="email" placeholder="tucorreo@email.com">
+        </label>
+        <button class="account-save" type="submit">Guardar mis datos <span>→</span></button>
+      </form>
+      <div class="account-status" id="accountStatus" aria-live="polite"></div>
+      <button class="account-clear" id="clearAccount" type="button">Borrar mis datos de este dispositivo</button>
+    </div>
+  </aside>
+</div>
+
+<div class="toast" id="toast"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
